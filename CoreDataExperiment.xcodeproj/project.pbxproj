@@ -22,6 +22,9 @@
 		7FF50FA917F3451400DD4D20 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FF50F8D17F3451400DD4D20 /* CoreData.framework */; };
 		7FF50FB117F3451400DD4D20 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FF50FAF17F3451400DD4D20 /* InfoPlist.strings */; };
 		7FF50FB317F3451400DD4D20 /* CoreDataExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF50FB217F3451400DD4D20 /* CoreDataExperimentTests.m */; };
+		7FF50FC117F3480900DD4D20 /* CDECoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF50FC017F3480900DD4D20 /* CDECoreDataManager.m */; };
+		7FF50FC417F349D500DD4D20 /* CDEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF50FC317F349D500DD4D20 /* CDEViewController.m */; };
+		7FF50FC717F34A5E00DD4D20 /* CDEItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF50FC617F34A5E00DD4D20 /* CDEItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		7FF50FAE17F3451400DD4D20 /* CoreDataExperimentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoreDataExperimentTests-Info.plist"; sourceTree = "<group>"; };
 		7FF50FB017F3451400DD4D20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7FF50FB217F3451400DD4D20 /* CoreDataExperimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreDataExperimentTests.m; sourceTree = "<group>"; };
+		7FF50FBF17F3480900DD4D20 /* CDECoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDECoreDataManager.h; sourceTree = "<group>"; };
+		7FF50FC017F3480900DD4D20 /* CDECoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDECoreDataManager.m; sourceTree = "<group>"; };
+		7FF50FC217F349D500DD4D20 /* CDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDEViewController.h; sourceTree = "<group>"; };
+		7FF50FC317F349D500DD4D20 /* CDEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDEViewController.m; sourceTree = "<group>"; };
+		7FF50FC517F34A5E00DD4D20 /* CDEItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDEItem.h; sourceTree = "<group>"; };
+		7FF50FC617F34A5E00DD4D20 /* CDEItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDEItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +124,16 @@
 		7FF50F8F17F3451400DD4D20 /* CoreDataExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				7FF50F9B17F3451400DD4D20 /* CoreDataExperiment.xcdatamodeld */,
+				7FF50FC517F34A5E00DD4D20 /* CDEItem.h */,
+				7FF50FC617F34A5E00DD4D20 /* CDEItem.m */,
 				7FF50F9817F3451400DD4D20 /* CDEAppDelegate.h */,
 				7FF50F9917F3451400DD4D20 /* CDEAppDelegate.m */,
+				7FF50FBF17F3480900DD4D20 /* CDECoreDataManager.h */,
+				7FF50FC017F3480900DD4D20 /* CDECoreDataManager.m */,
+				7FF50FC217F349D500DD4D20 /* CDEViewController.h */,
+				7FF50FC317F349D500DD4D20 /* CDEViewController.m */,
 				7FF50F9E17F3451400DD4D20 /* Images.xcassets */,
-				7FF50F9B17F3451400DD4D20 /* CoreDataExperiment.xcdatamodeld */,
 				7FF50F9017F3451400DD4D20 /* Supporting Files */,
 			);
 			path = CoreDataExperiment;
@@ -250,6 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FF50F9617F3451400DD4D20 /* main.m in Sources */,
+				7FF50FC117F3480900DD4D20 /* CDECoreDataManager.m in Sources */,
+				7FF50FC417F349D500DD4D20 /* CDEViewController.m in Sources */,
+				7FF50FC717F34A5E00DD4D20 /* CDEItem.m in Sources */,
 				7FF50F9D17F3451400DD4D20 /* CoreDataExperiment.xcdatamodeld in Sources */,
 				7FF50F9A17F3451400DD4D20 /* CDEAppDelegate.m in Sources */,
 			);
